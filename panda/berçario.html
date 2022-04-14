@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Site do Panda</title>
+	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	
+	
+		
+	
+	<style >
+
+		@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+		h1 {
+			font-family: 'Twinkle Star';
+			text-align: center;
+			font-size: 107px;
+			color: #8180BD;
+		}
+		footer{
+			font-size: 20px;
+			font-family:'Twinkle Star'; 
+		}
+		body{
+			background-color: #AABC9F;
+
+
+		}
+	</style>
+
+
+	
+</head>
+<body>
+<header>
+	<h1>Pandas</h1>
+	
+</header> <br>
+
+<nav>
+	<a href="panda.html">Página Inicial</a>
+	<a href="#">Fotos </a>
+	<a href="#">Videos</a>
+	<a href="indexpanda.html" target="_blank">Curiosidades</a>
+	<a href="berçario.html">Adote</a>
+</nav>
+
+<section id="berçario">
+	<div class="berçario">
+		<p>Ano de nascimento do seu panda:
+			<input type="number" name="txtano" id="txtano" min="0">
+		</p>
+		<p>Sexo:
+			<input type="radio" name="radsex" id="masc" checked>
+			<label for="mas">Masculino</label>
+			<input type="radio" name="radsex" id="fem">
+			<label for="fem">Feminino</label>
+		</p>
+		<p>
+			<input type="button" value="Verificar" onclick="verificar()">
+		</p>
+	</div>
+	
+	<div id="res">
+	Preencha os dados para acharmos um panda para você!
+	</div>
+	 
+	<div id="atencao"> Não aceitamos devolução!</div>
+</section>
+
+
+
+<footer>Pandex &copy</footer>
+<script src="script1.js"></script>
+</body>
+</html>
