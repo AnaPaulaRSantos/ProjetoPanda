@@ -1,3 +1,4 @@
+
 function verificar() {
 	var data=new Date()
 	var ano= data.getFullYear()
@@ -39,7 +40,7 @@ function verificar() {
 		}
 
 		
-		res.innerHTML=`Detectamos ${gênero} com ${idade} anos`
+		res.innerHTML =`Detectamos ${gênero} com ${idade}anos`
 		res.appendChild(img)
 
 
